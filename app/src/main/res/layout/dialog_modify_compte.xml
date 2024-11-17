@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Spinner for selecting Compte type -->
+    <Spinner
+        android:id="@+id/editType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <!-- EditText for entering Solde -->
+    <EditText
+        android:id="@+id/editSolde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Solde"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp" />
+
+    <!-- Button to update Compte -->
+    <Button
+        android:id="@+id/btnUpdateCompte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modifier"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black" />
+</LinearLayout>
